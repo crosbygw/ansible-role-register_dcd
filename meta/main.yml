@@ -7,6 +7,10 @@ galaxy_info:
   description: Performs a series of steps to a DCD BIG-IQ system to a CM BIG-IQ system.
   company: F5 Networks
   license: Apache
+  platforms:
+    - name: TMOS
+      versions:
+        - all
   min_ansible_version: 2.7
   galaxy_tags:
     - f5
